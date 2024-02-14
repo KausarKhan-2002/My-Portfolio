@@ -1,0 +1,87 @@
+/* =================== DAY & NIGHT MODE ========================= */
+.ri-sun-fill,
+.ri-moon-clear-fill {
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.ri-sun-fill {
+    color: var(--first-color);
+}
+
+.container-color {
+    background-color: #bababa;
+}
+
+.project-color {
+    background-color: yellow;
+}
+
+.bgColor {
+    background-color: rgba(131, 131, 131, 0.1);
+}
+
+.body-color {
+    background: #d0d0d0;
+}
+
+.title-color {
+    color: #222;
+}
+
+.active-link {
+    color: var(--first-color);
+}
+
+.description-color {
+    color: #444;
+}
+
+.border-color {
+    border: 2px solid #d0d0d0;
+}
+
+.form-color {
+    background: #555;
+}
+
+.nav-bg-color {
+    background: transparent;
+    backdrop-filter: blur(8px);
+}
+/* 
+---------------------------------------\
+ DAY & NIGHT MODE  <- mode.js ->
+---------------------------------------/
+ */
+.body-effect-background {
+    /* background-color: #9f9f9f; */
+    background-color: #aaaaaa;
+    color: #111;
+}
+.container-effect-backgroud {
+    background-color: #b5b5b5;
+    color: #111;
+}
+.sun-color {
+    color: #111;
+}
+.dynamic-contact-input {
+    background-color: #9f9f9f;
+    color: #111;
+    caret-color: var(--first-color);
+}
+.dynamic-contact-input::placeholder {
+    color: #111;
+}
+/* active link */
+.active-link {
+    color: var(--first-color);
+}
+.dynamic-services-card {
+    background-color: #9f9f9f;
+}
+
+.scrollup-bg-color {
+    background-color: #9f9f9f;
+}

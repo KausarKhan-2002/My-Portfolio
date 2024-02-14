@@ -1,0 +1,259 @@
+@media screen and (max-width: 1500px) {
+    .section__title {
+        font-size: 4.2rem;
+    }
+    .section__subtitle {
+        font-size: 1.5rem;
+    }
+}
+
+.show__menu {
+    right: 0;
+}
+
+@media screen and (max-width: 1265px) {
+    .skills__container {
+        gap: 2rem;
+    }
+    .skills__data {
+        width: 40%;
+    }
+
+    .services__container {
+        flex-wrap: wrap;
+    }
+    .services__card {
+        width: 350px;
+        height: 320px;
+    }
+}
+
+@media screen and (max-width: 1170px) { 
+    .home__content {
+        width: 470px;
+    }
+    .about__data {
+        width: 470px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .nav__menu {
+        position: fixed;
+        top: 0;
+        right: -50%;
+        width: 50%;
+        min-height: 100vh;
+        backdrop-filter: blur(8px);
+        background-color: hsla(0, 0%, 10%, .3);
+        transition: .3s ease-in-out;
+    }
+    .show__menu {
+        right: 0;
+    }
+    .nav__list {
+        flex-direction: column;
+        margin-top: 55px;
+        margin-left: 50px;
+        line-height: 2.5;
+    }
+    .nav__open {
+        display: inline-block;
+    }
+
+    .home__container {
+        gap: 3rem;
+    }
+   
+
+    .about__img {
+        width: 330px;
+        height: 330px;
+    }
+
+    .about__data {
+        width: 450px;
+    }
+
+    .section__title {
+        font-size: 2.8rem;
+    }
+    .section__subtitle {
+        font-size: 1rem;
+    }
+
+    .footer__title,
+    .footer__education {
+        font-size: .9rem;
+    }
+    .footer__copy {
+        font-size: .8rem;
+    }
+    
+}
+
+@media screen and (max-width: 910px) {
+    .about__data {
+        width: 360px;
+    }
+    .about__container {
+        gap: 2rem;
+    }
+    .about__img {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .home__container {
+        padding-top: 5.5rem;
+        flex-direction: column;
+    }
+    .home__content {
+        width: 100%;
+    }
+    .home__data {
+        text-align: center;
+    }
+    .home__social {
+        justify-content: center;
+    }
+
+    .about__container {
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: center; */
+    }
+    .about__data {
+        width: 100%;
+        text-align: center;
+    }
+    .about__img {
+        width: 350px;
+        height: 350px;
+        /* margin-left: 20%; */
+    }
+
+    .skills__data,
+    .skills__practical,
+    .skills__content {
+        width: 100%;
+    }
+    .skills__practical ul li {
+        margin-left: 25px;
+    }
+    .skills__content {
+        justify-content: space-evenly;
+    }
+    .skills__data {
+        text-align: center;
+    }
+
+    .contact__box {
+        width: 420px;
+    }
+
+    .footer__container {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .footer__content {
+        text-align: center;
+        
+    }
+}
+
+
+@media screen and (max-width: 430px) {
+    .contact__box {
+        width: 90%;
+    }
+    
+    .about__img {
+        width: 100%;
+        height: auto;
+    }
+
+    .skills__content {
+        gap: 4rem;
+    }
+    .skills__group {
+        margin-left: 2rem;
+    }
+
+    .footer__copy {
+        font-size: .6rem;
+    }
+}
+
+ @media screen and (max-width: 1500px) {
+    .home__subtitle {
+        font-size: 1.5rem;
+    }
+    .home__title {
+        font-size: 3.7rem;
+    }
+ }
+ @media screen and (max-width: 1032px) {
+    .home__subtitle {
+        font-size: 1.3rem;
+    }
+    .home__title {
+        font-size: 3rem;
+    }
+ }
+
+ @media screen and (max-width: 512px) {
+    .home__subtitle {
+        font-size: .8rem;
+    }
+    .home__title {
+        font-size: 2rem;
+    }
+
+    .dynamic-txts .static-txt {
+        font-size: 30px;
+    }
+    .dynamic-txts .typewrite {
+        font-size: 18px;
+    }
+
+    .section__title {
+        font-size: 2rem;
+    }
+    .section__subtitle {
+        font-size: .8rem;
+    }
+
+    .contact__input {
+        font-size: .8rem;
+    }
+}
+
+/* ========================= min-width =========================== */
+@media screen and (min-width: 1500px) {
+    .home__image {
+        width: 550px;
+        height: 550px;
+    }
+    .home__image img {
+        position: absolute;
+        left: 40px;
+        bottom: 7px;
+        width: 90%;
+    }
+
+    .about__img {
+        width: 450px;
+        height: 450px;
+    }
+}
+
+@media screen and (min-width: 1650px) {
+    .nav,
+    .home__container,
+    .about__container {
+        width: 80%;
+    }
+}
